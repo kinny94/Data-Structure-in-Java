@@ -20,6 +20,28 @@ class Solution {
     Arrays.fill(queue, "-1");
   } 
   
+  public void priorityQueue(String insert){
+    
+    System.out.println("\nPriority queue running: \n");
+    
+    int i;
+    if(numberOfItems == 0){
+      enqueue(insert);
+    }else{
+      for(i = numberOfItems-1; i>=0; i--){
+        if(Integer.parseInt(insert) > Integer.parseInt(queue[i])){
+          queue[i+1] = queue[i];
+        }else{
+          break; 
+        }
+      }
+      queue[i+1] = insert;
+      rear++;
+      numberOfItems++;
+    }
+    print();
+  }
+  
   public void enqueue(String input){
     if(numberOfItems + 1 <= size){
       queue[rear] = input;
@@ -73,6 +95,9 @@ class Solution {
     queue.peek();
     queue.dequeue();
     queue.peek();
+    queue.priorityQueue("10");
+    queue.priorityQueue("19");
+    queue.priorityQueue("15");
     
   }
 }
