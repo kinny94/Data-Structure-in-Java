@@ -1,0 +1,17 @@
+* Data Structures
+Hash Table:-
+	*While not all problems can be solved with hash tables, a shocking number of interview problems can be. 
+	* Hash Tables make use of the Hash function. Where in an array we have to go through each an every element to search an element. In a hash table, we can create a hansh function. A hash function works on calculations. Hash table makes a key: value pair. So unlike an array, a hash function can ask user for an id to be searched, and then it will perform some calculations on that id in order to get the value at the id in the hash tablke. Thus hash table are of fixed size and known locations. That's why there complexities are usually less than an array.
+
+* ArrayList:- 
+	* An arrayList or a dynamically resizing array, is an array that resizes itself as needed while still providing O(1) access. A typical implmenetation is that when a vector is full, the array doubles in size. Each doubling takes O(n) time, but happens so rerely that its amortized time is still O(1).
+
+* LinkedList:-
+	Linked List questions are extremely common. These can range from simple(delete a node in a linked list) to much more challenging . Either way, I advise you to be extremely comfortable with easiest questions.Being able to easily manipulate a linked list in the simplest ways will make the tougher linked list questions much less tricky. 
+
+*  Trees and Graphs
+	* Trees and graphs questions usually comes in one or two forms:-
+	- Implement a tree/ find a node/ delete a node/ other well known algorithm.
+	- Implement a modification of a known algorithm.
+	Binary Tree - You should be able to easily implement In-order, Pre-order,Post-order, Insert Node.
+	Graph Traversal - Depth First Search and Breadth first search. 
