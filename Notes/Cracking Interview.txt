@@ -1,0 +1,35 @@
+* Five Important Steps to crack an Interview
+
+1.) Ask Questions.
+	Technical problems are usually ambigous, so do ask questions related to the topic, to make the question more sensible. 
+	For eg -	"Design an algorithm to sort a list"
+				Question: "What sort of a list? An array or a Lonked list?"
+				Question: "What does the array hold?Numbers? Characters? Strings?"
+				Question: "And are the numbers Integers?"
+				Question: "What is the source of numbers? Are they ID's or value of something?"
+				Question: "How many customers are there?"
+
+2.) Design an Algorithm
+	* Consider the space and timer complexities?
+	* What happens if there is a lot of data?
+	* Does your design causes other issues?
+	* If there are other issues, did you make the right trade-offs?
+	* If they gave you specific data, have you leverage that information? 
+
+3.)	Pseudo - Code
+	Write pseudo-code first , but make sure that to tell your interviewer that you are writting pseudo-code.
+
+4.) Code
+	You don't need to rush through code. Just go at a nice, slow methodical pace.
+	* Use Data Structure generously. Use a good data Structure or define your own. 
+	* Don't crowd your coding.
+
+5.) Test
+	You need to test your code.
+	* consider testing for extreme cases: 0, negative, null, maximums etc.
+	* User error: What happens if the user passes in null or negative value.
+	* If your algorithm is complicated or highly numerical, consider testing while you're writing the code rather than just at    
+	the end. 
+
+	
+
