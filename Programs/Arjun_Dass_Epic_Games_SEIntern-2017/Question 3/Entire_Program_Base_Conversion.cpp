@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+char* itoa(int a, int base){
+    std::string str = "";
+    char hex[16]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+    while (true){
+      if(base == 16){
+        int rem=a%16; //convert it
+        std::string s = std::to_string(rem);
+        str =hex[rem]+str; 
+        a=a/16;
+        if (a == 0)
+          break;
+      }else{
+        int lastdigit = a % base;
+        std::string s = std::to_string(lastdigit);
+        str = s + str;
+        a = a / base;
+        if (a == 0)
+          break;
+      }
+    }
+    char * writable = new char[str.size() + 1];
+    std::copy(str.begin(), str.end(), writable);
+    return writable;
+}
+
+int main() {
+  cout<<itoa(1589, 2);
+}
