@@ -1,7 +1,11 @@
-class ArrayHopper2{
+class Solution{
     
   public static int jump(int[] arr) { 
   int n = arr.length;
+      
+  if(arr[0] == 0){
+      return 0;
+  }
   int jumps[] = new int[n];  // jumps[n-1] will hold the 
                              // result
   int i, j;
