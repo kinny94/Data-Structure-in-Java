@@ -35,8 +35,8 @@ class SecondMostRepeat{
         Set set2 = hmap.entrySet();
         Iterator iterator2 = set2.iterator();
         List<String> valuesList = new ArrayList<String>(map.keySet());
-        System.out.println(valuesList.get(valuesList.size() - 1));
-        return null;
+
+        return valuesList.get(valuesList.size() - 1);
     }
 
     public static void main(String[] args) {
