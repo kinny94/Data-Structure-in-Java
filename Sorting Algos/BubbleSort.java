@@ -1,3 +1,7 @@
+/*  Best case - O(n)
+    Average Case - O(n2)
+    Worst Case - O(n2)
+*/
 import java.util.*;
 
 class BubbleSort{
