@@ -1,5 +1,11 @@
 import java.util.*;
 
+/*
+    Best Case: O(nlogn)
+    Average: O(nlogn)
+    Worst: O(nlogn)
+
+*/
 public class MergeSort{
 
     public static int[] sort(int a[], int leftStart, int rightEnd){
