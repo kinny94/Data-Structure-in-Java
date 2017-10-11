@@ -1,4 +1,10 @@
 import java.util.*;
+/*
+    Best Case: O(n)
+    Average Case: O(n2)
+    Worst Case: O(n2)
+
+*/
 
 class InsertionSort{
 
