@@ -1,5 +1,11 @@
 import java.util.*;
 
+/*
+    Best Case: O(n2)
+    Average Case: O(n2)
+    Worst Case: O(n2)
+
+*/
 class SelectionSort{
     
     public static void print(int a[]){
