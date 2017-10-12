@@ -30,7 +30,20 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T>{
     }
     
     public void traversal(){
-        
+        if(root != null){
+            inOrderTraversal(root);
+        }
+    }
+
+    private void inOrderTraversal(Node<T> node){
+        if(node.getLeftChild() != null){
+            inOrderTraversal(node.getLeftChild());
+        }
+
+        System.out.print(node + " --> ");
+        if(node.getRightChild() != null){
+            
+        }
     }
     
     private void insertNode(T newData, Node<T> node){
